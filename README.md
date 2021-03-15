@@ -8,6 +8,9 @@
 </div>
 
 
+![Vizualization on VOC 15-1](images/plop_viz.png)
+
+
 This repository contains all of our code. It is a modified version of
 [Cermelli et al.'s repository](https://github.com/fcdl94/MiB).
 
@@ -47,6 +50,9 @@ pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cu
 Two scripts are available to download ADE20k and Pascal-VOC 2012, please see in the `data` folder.
 For Cityscapes, you need to do it yourself, because you have to ask "permission" to the holders; but be
 reassured, it's only a formality, you can get the link in a few days by mail.
+
+![Performance on VOC](images/plop_voc.png)
+
 
 # How to perform training
 The most important file is run.py, that is in charge to start the training or test procedure.
