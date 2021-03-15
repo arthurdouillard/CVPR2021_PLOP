@@ -2,7 +2,7 @@
 
 # PLOP: Learning without Forgetting for Continual Semantic Segmentation
 
-[![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://arxiv.org/abs/2011.11390)
+[![Paper](https://img.shields.io/badge/arXiv-2011.11390-critical)](https://arxiv.org/abs/2011.11390)
 [![Conference](https://img.shields.io/badge/CVPR-2021-important)](https://arxiv.org/abs/2011.11390)
 
 </div>
