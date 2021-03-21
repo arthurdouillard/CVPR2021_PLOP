@@ -500,7 +500,9 @@ def run_step(opts, world_size, rank, device):
     )
 
     # load best model
-    if TRAIN:
+    if True: #TRAIN:
+        # Always reloading model for now
+        # https://github.com/arthurdouillard/CVPR2021_PLOP/issues/3
         model = make_model(
             opts, classes=tasks.get_per_task_classes(opts.dataset, opts.task, opts.step)
         )
