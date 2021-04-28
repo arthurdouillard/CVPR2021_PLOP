@@ -28,8 +28,8 @@ This repository contains all of our code. It is a modified version of
 
 You need to install the following libraries:
 - Python (3.6)
-- Pytorch (1.7.1)
-- torchvision (0.4.0)
+- Pytorch (1.8.1+cu102)
+- torchvision (0.9.1+cu102)
 - tensorboardX (1.8)
 - apex (0.1)
 - matplotlib (3.3.1)
@@ -37,10 +37,10 @@ You need to install the following libraries:
 - [inplace-abn](https://github.com/mapillary/inplace_abn) (1.0.7)
 
 Note also that apex seems to only work with some CUDA versions, therefore try to install Pytorch with
-the 9.2 or 10.0 CUDA versions, do:
+the 10.2 CUDA versions, do:
 
 ```
-conda install -y pytorch torchvision cudatoolkit=9.2 -c pytorch
+conda install -y pytorch torchvision cudatoolkit=10.2 -c pytorch
 cd apex
 pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
 ```
