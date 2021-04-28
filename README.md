@@ -36,8 +36,8 @@ You need to install the following libraries:
 - numpy (1.17.2)
 - [inplace-abn](https://github.com/mapillary/inplace_abn) (1.0.7)
 
-Note also that apex seems to only work with some CUDA versions, therefore try to install Pytorch with
-the 10.2 CUDA versions, do:
+Note also that apex seems to only work with some CUDA versions, therefore try to install Pytorch (and torchvision) with
+the 10.2 CUDA version. You'll probably need anaconda instead of pip in that case, sorry! Do:
 
 ```
 conda install -y pytorch torchvision cudatoolkit=10.2 -c pytorch
