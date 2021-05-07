@@ -4,7 +4,7 @@
 
 [![Paper](https://img.shields.io/badge/arXiv-2011.11390-brightgreen)](https://arxiv.org/abs/2011.11390)
 [![Conference](https://img.shields.io/badge/CVPR-2021-blue)](https://arxiv.org/abs/2011.11390)
-[![You](https://img.shields.io/badge/Tube-red)](https://www.youtube.com/watch?v=GmnglAsraAM)
+[![Youtube](https://img.shields.io/badge/You-tube-red)](https://www.youtube.com/watch?v=GmnglAsraAM)
 
 </div>
 
