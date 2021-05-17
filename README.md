@@ -110,7 +110,7 @@ Or more simply you can use one of the provided script that will launch every ste
 For example, do
 
 ````
-bash scripts/plop_15-1.sh
+bash scripts/voc/plop_15-1.sh
 ````
 
 Note that you will need to modify those scripts to include the path where your data.
