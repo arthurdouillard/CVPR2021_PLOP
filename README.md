@@ -46,6 +46,8 @@ cd apex
 pip3 install -v --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
 ```
 
+Note that while the code should be runnable without mixed precision (apex), some have reported lower perfs without it. So try with it!
+
 # Dataset
 
 Two scripts are available to download ADE20k and Pascal-VOC 2012, please see in the `data` folder.
