@@ -289,7 +289,7 @@ class Trainer:
                         # If all old/bg pixels are certain the factor is 1 (loss not changed)
                         # Else the factor is < 1, i.e. the loss is reduced to avoid
                         # giving too much importance to new pixels
-                        classif_adaptive_factor = num / den
+                        classif_adaptive_factor = num / (den + 1e-6)
                         classif_adaptive_factor = classif_adaptive_factor[:, None, None]
 
                         if self.classif_adaptive_min_factor:
